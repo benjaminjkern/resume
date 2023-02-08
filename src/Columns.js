@@ -2,7 +2,7 @@ import EducationSection from "./sections/EducationSection";
 import ExperienceSection from "./sections/ExperienceSection";
 import LinksSection from "./sections/LinksSection";
 import SkillsListSection from "./sections/SkillsListSection";
-import SkillsRankSection from "./sections/SkillsRankSection";
+import SkillsRatingSection from "./sections/SkillsRatingSection";
 import ProjectsSection from "./sections/ProjectsSection";
 
 const Columns = () => {
@@ -14,7 +14,7 @@ const Columns = () => {
             </div>
             <div style={{ flex: 1 }}>
                 <EducationSection />
-                <SkillsRankSection />
+                <SkillsRatingSection />
                 <SkillsListSection />
                 <LinksSection />
             </div>
