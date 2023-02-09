@@ -8,7 +8,7 @@ const TopSection = () => {
         <div
             style={{
                 margin: 20,
-                marginBottom: 0,
+                marginBottom: 10,
             }}
         >
             <h1 style={{ fontSize: 45 }}>Benjamin Kern</h1>
@@ -49,6 +49,7 @@ const InfoSection = ({ icon, children, href }) => {
                 flexDirection: "row",
                 alignItems: "center",
                 color: secondaryColor,
+                marginTop: 2,
             }}
         >
             <span style={{ color: primaryColor, marginRight: 5 }}>{icon}</span>
