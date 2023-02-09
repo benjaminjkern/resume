@@ -3,6 +3,7 @@ import Section from "../components/Section";
 
 const skills = `Programming
 AWS
+# Docker
 UI/UX Design
 ReactJS
 Apollo GraphQL
@@ -12,7 +13,9 @@ NodeJS
 Maven / Gradle
 Deep Learning
 Artificial Intelligence
-Github Workflows`.split("\n");
+Github Workflows`
+    .split("\n")
+    .filter((line) => !line.startsWith("#"));
 
 const SkillsListSection = () => {
     return (

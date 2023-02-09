@@ -26,12 +26,26 @@ const ExperienceSection = () => {
                     ]}
                 />
                 <Job
-                    title="Physics Tutor"
-                    company="Loyola Marymount University"
+                    title="Physics & Mathematics Tutor"
+                    company="LMU College of Science & Engineering"
                     dates="08/2017 - 12/2019"
                     location="Los Angeles, CA"
-                    achievements={["Gabagool"]}
+                    achievements={[
+                        "Provided weekly tutoring for upper and lower-division students enrolled in a variety of different Mathematics & Physics courses",
+                        "Contributed to raising student test scores 20-30% on average",
+                    ]}
                 />
+                {/* <Job
+                    title="Technical Assistant"
+                    company="Pixelgate Networks"
+                    dates="05/2015 - 08/2016"
+                    location="Los Angeles, CA"
+                    achievements={[
+                        "Organized company's server facility to optimize process improvement and minimize supply costs",
+                        "Built and performed maintenance on servers to establish internet security systems and optimize power supplies",
+                        "Worked on technical projects to improve computing performance"
+                    ]}
+                /> */}
             </List>
         </Section>
     );

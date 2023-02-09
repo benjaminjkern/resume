@@ -28,8 +28,11 @@ const ProjectsSection = () => {
                 <Project
                     title="Cuttlefish"
                     dates="01/2020 - Ongoing"
-                    summary="Cuttlefish."
-                    achievements={["gabagool"]}
+                    summary="Cuttlefish is a Versatile Functional Programming Language."
+                    achievements={[
+                        "Engineered a Functional Language designed to fuse Multi-faceted Programming as well as Object-Oriented Programming",
+                        "Developed professional-level production & deployment environments",
+                    ]}
                 />
             </List>
         </Section>

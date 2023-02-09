@@ -12,6 +12,7 @@ const SkillsRatingSection = () => {
                 <SkillRating rating={5}>Java</SkillRating>
                 <SkillRating rating={4}>C/C++</SkillRating>
                 <SkillRating rating={4}>Swift</SkillRating>
+                {/* <SkillRating rating={4}>Julia</SkillRating> */}
                 <SkillRating rating={4}>SQL</SkillRating>
                 <SkillRating rating={3}>Go</SkillRating>
                 <SkillRating rating={3}>Haskell</SkillRating>
