@@ -25,9 +25,8 @@ const ExperienceSection = () => {
                     dates="01/2021 - 08/2021"
                     location="Sylmar, CA"
                     achievements={[
-                        "Developed software for improving the efficiency and efficacy of software in healthcare machinery and patient-facing mobile applications",
+                        "Developed software for improving the efficiency and efficacy of healthcare machinery and patient-facing mobile applications",
                         "Collaborated with developers in large streamlined code repositories and databases",
-                        "Performed testing and debugging on patient-facing mobile applications",
                     ]}
                 />
                 <Job
