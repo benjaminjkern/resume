@@ -25,19 +25,21 @@ const MAX_RATING = 5;
 const SkillRating = ({ rating, children }) => {
     return (
         <div style={{ flexDirection: "row", justifyContent: "space-between" }}>
-            <span>{children}</span>
+            <span style={{ fontWeight: 700 }}>{children}</span>
             <div style={{ flexDirection: "row" }}>
                 {Array(MAX_RATING)
                     .fill()
                     .map((_, i) => (
                         <span
                             style={{
-                                color:
+                                backgroundColor:
                                     rating > i ? primaryColor : secondaryColor,
+                                width: 15,
+                                height: 15,
+                                borderRadius: 10,
+                                marginLeft: 2,
                             }}
-                        >
-                            *
-                        </span>
+                        />
                     ))}
             </div>
         </div>

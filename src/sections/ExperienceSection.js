@@ -40,8 +40,8 @@ const ExperienceSection = () => {
 export const Job = ({ title, company, dates, location, achievements = [] }) => {
     return (
         <div>
-            <h2>{title}</h2>
-            <h3 style={{ color: primaryColor }}>{company}</h3>
+            <h3>{title}</h3>
+            <h4 style={{ color: primaryColor }}>{company}</h4>
             <DateLocationInfo dates={dates} location={location} />
             <ul>
                 {achievements.map((achievement, i) => (

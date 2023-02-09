@@ -8,11 +8,11 @@ import ProjectsSection from "./sections/ProjectsSection";
 const Columns = () => {
     return (
         <div style={{ flexDirection: "row" }}>
-            <div style={{ flex: 2 }}>
+            <div style={{ flex: 3 }}>
                 <ExperienceSection />
                 <ProjectsSection />
             </div>
-            <div style={{ flex: 1 }}>
+            <div style={{ flex: 2 }}>
                 <EducationSection />
                 <SkillsRatingSection />
                 <SkillsListSection />

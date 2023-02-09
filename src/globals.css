@@ -1,8 +1,30 @@
 body,
-body *:not(noscript) {
+body *:not(noscript, li, ul) {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 14px;
+}
+
+hr {
+    border-style: dashed;
+    border-color: lightgray;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+ul {
+    margin: 0 !important;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
 }
