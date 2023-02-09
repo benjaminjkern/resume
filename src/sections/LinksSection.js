@@ -3,6 +3,7 @@ import List from "../components/List";
 import Section from "../components/Section";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FiLink } from "react-icons/fi";
 
 const LinksSection = () => {
     return (
@@ -19,6 +20,12 @@ const LinksSection = () => {
                     icon={<BsGithub />}
                 >
                     /benjaminjkern
+                </IconLink>
+                <IconLink
+                    href="https://benjaminjkern.github.io/"
+                    icon={<FiLink />}
+                >
+                    benjaminjkern.github.io
                 </IconLink>
             </List>
         </Section>

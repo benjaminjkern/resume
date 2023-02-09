@@ -9,10 +9,15 @@ const ExperienceSection = () => {
             <List>
                 <Job
                     title="Scientist - Software Development"
-                    company="Arete"
+                    company="Areté"
                     dates="08/2021 - Present"
                     location="Northridge, CA"
-                    achievements={["gabagool"]}
+                    achievements={[
+                        "Developed software for several projects and products within",
+                        "Led",
+                        "BoogaBogga",
+                        "Shmooga",
+                    ]}
                 />
                 <Job
                     title="Software Engineer - Software Verification"
@@ -20,9 +25,19 @@ const ExperienceSection = () => {
                     dates="01/2021 - 08/2021"
                     location="Sylmar, CA"
                     achievements={[
-                        "Actively contributed to improving the efficiency and efficacy of software in healthcare machinery",
+                        "Developed software for improving the efficiency and efficacy of software in healthcare machinery and patient-facing mobile applications",
+                        "Collaborated with developers in large streamlined code repositories and databases",
                         "Performed testing and debugging on patient-facing mobile applications",
-                        "Programmed and developed software within large streamlined code repositories and databases",
+                    ]}
+                />
+                <Job
+                    title="Software Engineer Intern"
+                    company="Automated Living"
+                    dates="05/2020 - 08/2020"
+                    location="Los Angeles, CA"
+                    achievements={[
+                        "Developed and manufactured streamlined IOT products using Raspberry Pi's, utilizing LoRaWAN as well as 4G Modem technologies",
+                        "Spearheaded backend and database implementation for displaying MQTT information",
                     ]}
                 />
                 <Job
@@ -32,7 +47,6 @@ const ExperienceSection = () => {
                     location="Los Angeles, CA"
                     achievements={[
                         "Provided weekly tutoring for upper and lower-division students enrolled in a variety of different Mathematics & Physics courses",
-                        "Contributed to raising student test scores 20-30% on average",
                     ]}
                 />
                 {/* <Job

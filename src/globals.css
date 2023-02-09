@@ -9,6 +9,12 @@ body *:not(noscript, li, ul) {
 
 body {
     font-size: 14px;
+    width: 850px;
+    height: 1400px;
+    padding: 40px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: black;
 }
 
 hr {

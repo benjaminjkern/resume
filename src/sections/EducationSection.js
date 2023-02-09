@@ -6,7 +6,7 @@ const EducationSection = () => {
         <Section title="Education">
             <Job
                 title="Computer Science & Physics"
-                company="Loyola Marymount"
+                company="Loyola Marymount University"
                 dates="2016 - 2020"
                 location="Los Angeles, CA"
             />

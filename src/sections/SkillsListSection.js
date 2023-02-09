@@ -6,8 +6,13 @@ AWS
 # Docker
 UI/UX Design
 ReactJS
+NextJS
+Serverless Infrastructures
 Apollo GraphQL
+Django REST Interface
+Flask
 OpenGL
+Cmake
 TensorFlow & PyTorch
 NodeJS
 Maven / Gradle
