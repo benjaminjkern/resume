@@ -1,8 +1,7 @@
 import { secondaryColor } from "../colors";
 import Section from "../components/Section";
 
-const skills = `Programming
-AWS
+const skills = `AWS
 # Docker
 UI/UX Design
 ReactJS
