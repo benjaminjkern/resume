@@ -12,28 +12,28 @@ const ProjectsSection = () => {
                     dates="04/2016 - Ongoing"
                     summary="Exploring my passion for something I think is very cool, and testing new ideas I come up with relating to the subject."
                     achievements={[
-                        "Implemented a fully functional neural network library from scratch that includes convolutional capabilities, backpropagation, and quadratic layers",
-                        "Programmed a number of games designed for exploring model optimization in systems with no direct reward function - most notably in continuous-time games",
+                        "Implemented a fully functional neural network library from scratch that includes convolutional capabilities, backpropagation, and more",
+                        "Programmed games for exploring model optimization within systems that have no direct reward function, most notably in continuous games",
                     ]}
                     href="https://github.com/benjaminjkern/"
-                    linkText="On my github"
+                    linkText="On github"
                 />
                 <Project
                     title="Bazar"
                     dates="11/2020 - Ongoing"
                     summary="Bazar is an all-in-one local-business-centric digital marketplace."
                     achievements={[
-                        "Co-Engineered a mobile application-based SaaS business with professional-level implementation",
+                        "Co-Engineered a mobile application-based SaaS business with professional-level implementation and integration with large APIs",
                         "Led a small team of engineers across the stack in order to produce a functional and aesthetically pleasing customer-facing product",
                         "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
                     ]}
                     href="https://bazar.earth/about"
-                    linkText="bazar.earth/about"
+                    linkText="bazar.earth"
                 />
                 <Project
                     title="Crowdventure"
                     dates="12/2019 - Ongoing"
-                    summary="Crowdventure is a Crowd-Sourced Web Application Game."
+                    summary="Crowdventure is a crowd-sourced web application game."
                     achievements={[
                         "Developed a full stack web application, utilizing ReactJS and Github Pages for frontend deployment",
                         "Utilized a GraphQL backend deployed to a serverless instance using AWS Lambda for backend and an AWS DynamoDB database",
@@ -44,9 +44,9 @@ const ProjectsSection = () => {
                 <Project
                     title="Cuttlefish"
                     dates="01/2020 - Ongoing"
-                    summary="Cuttlefish is a Versatile Functional Programming Language."
+                    summary="Cuttlefish is a versatile functional programming language."
                     achievements={[
-                        "Engineered a Functional Language designed to fuse Multi-faceted Programming with Object-Oriented Programming",
+                        "Engineered a language designed to fuse multi-faceted functional programming with object-oriented programming",
                         "Wrote a fully functional novel dynamic parser for the programming language",
                     ]}
                     href="https://benjaminjkern.github.io/cuttlefishlang"

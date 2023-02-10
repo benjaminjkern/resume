@@ -4,7 +4,14 @@ import { secondaryColor } from "../colors";
 
 const DateLocationInfo = ({ dates, location }) => {
     return (
-        <div style={{ flexDirection: "row", color: secondaryColor }}>
+        <div
+            style={{
+                flexDirection: "row",
+                color: secondaryColor,
+                marginTop: 2,
+                marginBottom: 2,
+            }}
+        >
             <span style={{ flexDirection: "row", marginRight: 15 }}>
                 <BsFillCalendarWeekFill style={{ marginRight: 5 }} />
                 {dates}

@@ -13,10 +13,9 @@ const ExperienceSection = () => {
                     dates="08/2021 - Present"
                     location="Northridge, CA"
                     achievements={[
-                        "Developed software for several projects and products within",
-                        "Led",
-                        "BoogaBogga",
-                        "Shmooga",
+                        "Provided software and architecture for several projects and products sold to customers",
+                        "Led a small team to fully overhaul an old project for optimization and brought it to usability by research teams and in classified spaces",
+                        "Took charge of multiple projects and subprojects and acted as primary integrator and person of contact",
                     ]}
                 />
                 <Job
@@ -35,8 +34,8 @@ const ExperienceSection = () => {
                     dates="05/2020 - 08/2020"
                     location="Los Angeles, CA"
                     achievements={[
-                        "Developed and manufactured streamlined IOT products using Raspberry Pi's, utilizing LoRaWAN as well as 4G Modem technologies",
-                        "Spearheaded backend and database implementation for displaying MQTT information",
+                        "Prototyped IOT products using Raspberry Pi's, utilizing LoRaWAN as well as 4G Modem technologies",
+                        "Spearheaded backend and database messaging using MQTT",
                     ]}
                 />
                 <Job

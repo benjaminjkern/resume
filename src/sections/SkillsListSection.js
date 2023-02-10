@@ -7,12 +7,13 @@ UI/UX Design
 ReactJS
 NextJS
 Serverless Infrastructures
-Apollo GraphQL
+GraphQL
 Django REST Interface
 Flask
 OpenGL
 Cmake
-TensorFlow & PyTorch
+TensorFlow
+PyTorch
 NodeJS
 Maven / Gradle
 Deep Learning
@@ -23,7 +24,7 @@ Github Workflows`
 
 const SkillsListSection = () => {
     return (
-        <Section title="Skills">
+        <Section title="Skills & Technologies">
             <div style={{ flexDirection: "row", flexWrap: "wrap" }}>
                 {skills.map((skill, i) => (
                     <span
