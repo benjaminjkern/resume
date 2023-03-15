@@ -8,7 +8,7 @@ const ExperienceSection = () => {
         <Section title="Experience">
             <List>
                 <Job
-                    title="Scientist - Software Development"
+                    title="Scientist II - Software Development"
                     company="Areté"
                     dates="08/2021 - Present"
                     location="Northridge, CA"
