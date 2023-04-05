@@ -3,22 +3,28 @@ import Section from "../components/Section";
 
 const skills = `AWS
 # Docker
-UI/UX Design
-ReactJS
+REST APIs
+React / React Native
 NextJS
+AWS DynamoDB
+AWS RDS
 Serverless Infrastructures
+AWS Lambda
 GraphQL
-Django REST Interface
+Django
 Flask
 OpenGL
 Cmake
-TensorFlow
-PyTorch
+Pandas
+TensorFlow / PyTorch
 NodeJS
 Maven / Gradle
 Deep Learning
 Artificial Intelligence
-Github Workflows`
+Github Workflows
+Team Building
+Product Management
+UI/UX Design`
     .split("\n")
     .filter((line) => !line.startsWith("#"));
 

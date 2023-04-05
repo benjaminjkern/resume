@@ -8,6 +8,41 @@ const ProjectsSection = () => {
         <Section title="Projects">
             <List>
                 <Project
+                    title="Bazar - The Marketplace that Moves With You."
+                    dates="11/2020 - Ongoing"
+                    summary="Bazar is an all-in-one local-business-centric digital marketplace."
+                    achievements={[
+                        "Co-Engineered a mobile application-based SaaS business with professional-level implementation and integration with large APIs. App available in the App Store and Google Play Stores",
+                        "Designed and implemented a complex E-commerce API with Sorting, Searching, Filtering, Pagination, and Advanced Recommendations across 10s of thousands of products",
+                        "Hired, managed, and trained a small team of engineers across the stack in order to produce a functional and aesthetically pleasing customer-facing product",
+                        "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
+                    ]}
+                    href="https://bazar.earth/about"
+                    linkText="bazar.earth"
+                />
+                <Project
+                    title="The Cuttlefish Programming Language"
+                    dates="01/2020 - Ongoing"
+                    summary="Cuttlefish is an incredibly versatile & easy-to-learn programming language."
+                    achievements={[
+                        "Engineered a language, compiler, and interpreter designed to fuse multi-faceted functional programming with object-oriented programming",
+                        "Wrote a fully functional novel dynamic parser for the programming language",
+                    ]}
+                    href="https://benjaminjkern.github.io/cuttlefishlang"
+                    linkText="benjaminjkern.github.io/cuttlefishlang"
+                />
+                <Project
+                    title="Crowdventure"
+                    dates="12/2019 - Ongoing"
+                    summary="Crowdventure is a crowd-sourced web application game."
+                    achievements={[
+                        "Full stack web application game, utilizing ReactJS and Github Pages for frontend deployment",
+                        "Utilized a GraphQL backend deployed to a serverless instance using AWS Lambda for backend and an AWS DynamoDB database",
+                    ]}
+                    href="https://crowdventure.me/"
+                    linkText="crowdventure.me"
+                />
+                {/* <Project
                     title="AI and Machine Learning Explorations"
                     dates="04/2016 - Ongoing"
                     summary="Exploring my passion for something I think is very cool, and testing new ideas I come up with relating to the subject."
@@ -17,41 +52,7 @@ const ProjectsSection = () => {
                     ]}
                     href="https://github.com/benjaminjkern/"
                     linkText="On github"
-                />
-                <Project
-                    title="Bazar"
-                    dates="11/2020 - Ongoing"
-                    summary="Bazar is an all-in-one local-business-centric digital marketplace."
-                    achievements={[
-                        "Co-Engineered a mobile application-based SaaS business with professional-level implementation and integration with large APIs",
-                        "Led a small team of engineers across the stack in order to produce a functional and aesthetically pleasing customer-facing product",
-                        "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
-                    ]}
-                    href="https://bazar.earth/about"
-                    linkText="bazar.earth"
-                />
-                <Project
-                    title="Crowdventure"
-                    dates="12/2019 - Ongoing"
-                    summary="Crowdventure is a crowd-sourced web application game."
-                    achievements={[
-                        "Developed a full stack web application, utilizing ReactJS and Github Pages for frontend deployment",
-                        "Utilized a GraphQL backend deployed to a serverless instance using AWS Lambda for backend and an AWS DynamoDB database",
-                    ]}
-                    href="https://crowdventure.me/"
-                    linkText="crowdventure.me"
-                />
-                <Project
-                    title="Cuttlefish"
-                    dates="01/2020 - Ongoing"
-                    summary="Cuttlefish is a versatile functional programming language."
-                    achievements={[
-                        "Engineered a language designed to fuse multi-faceted functional programming with object-oriented programming",
-                        "Wrote a fully functional novel dynamic parser for the programming language",
-                    ]}
-                    href="https://benjaminjkern.github.io/cuttlefishlang"
-                    linkText="benjaminjkern.github.io/cuttlefishlang"
-                />
+                /> */}
             </List>
         </Section>
     );

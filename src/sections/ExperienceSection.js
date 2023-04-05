@@ -13,9 +13,11 @@ const ExperienceSection = () => {
                     dates="08/2021 - Present"
                     location="Northridge, CA"
                     achievements={[
-                        "Provided software and architecture for several projects and products sold to customers",
-                        "Led a small team to fully overhaul an old project for optimization and brought it to usability by research teams and in classified spaces",
-                        "Took charge of multiple projects and subprojects and acted as primary integrator and person of contact",
+                        "Designed, developed, and helped maintain several customer-facing products (both classified and unclassified)",
+                        "Managed and led a team of 4 to fully overhaul an existing product for GPU optimization (Fortran -> C++/Cuda) and brought it to usability by research teams and in classified spaces",
+                        "Presented and pitched projects to customers in order to win high-visibility defense contracts",
+                        "Received high praise for ability to take charge of a project with little to no supervision and bring it to high quality completion.",
+                        // "Took charge of multiple projects and acted as primary integrator and person of contact"
                     ]}
                 />
                 <Job
@@ -25,7 +27,7 @@ const ExperienceSection = () => {
                     location="Sylmar, CA"
                     achievements={[
                         "Developed software for improving the efficiency and efficacy of healthcare machinery and patient-facing mobile applications",
-                        "Collaborated with developers in large streamlined code repositories and databases",
+                        "Collaborated with developers in extremely large streamlined code repositories and databases",
                     ]}
                 />
                 <Job
@@ -45,6 +47,7 @@ const ExperienceSection = () => {
                     location="Los Angeles, CA"
                     achievements={[
                         "Provided weekly tutoring for upper and lower-division students enrolled in a variety of different Mathematics & Physics courses",
+                        "Improved grades of students as well as deepened their understanding of the topics at hand, with testimonies from professors",
                     ]}
                 />
                 {/* <Job

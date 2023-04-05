@@ -15,12 +15,13 @@ const SkillsRatingSection = () => {
                 <SkillRating rating={4}>Cuda</SkillRating>
                 <SkillRating rating={4}>Swift</SkillRating>
                 <SkillRating rating={4}>SQL</SkillRating>
-                <SkillRating rating={4}>Matlab</SkillRating>
+                {/* <SkillRating rating={4}>Matlab</SkillRating> */}
                 <SkillRating rating={4}>Fortran</SkillRating>
                 <SkillRating rating={3}>Go</SkillRating>
+                <SkillRating rating={3}>Scala</SkillRating>
                 <SkillRating rating={3}>Rust</SkillRating>
                 <SkillRating rating={3}>Haskell</SkillRating>
-                <SkillRating rating={3}>R</SkillRating>
+                {/* <SkillRating rating={3}>R</SkillRating> */}
                 <SkillRating rating={3}>Julia</SkillRating>
             </List>
         </Section>
