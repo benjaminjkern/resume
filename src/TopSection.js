@@ -12,7 +12,7 @@ const TopSection = () => {
             }}
         >
             <h1 style={{ fontSize: 45 }}>Benjamin Kern</h1>
-            <h3 style={{ color: primaryColor }}>Software Engineer</h3>
+            {/* <h3 style={{ color: primaryColor }}>Software Engineer</h3> */}
             <div
                 style={{
                     flexDirection: "row",
