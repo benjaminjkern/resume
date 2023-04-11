@@ -1,32 +1,45 @@
 import { secondaryColor } from "../colors";
 import Section from "../components/Section";
 
-const skills = `AWS
-# Docker
-REST APIs
+const skills = `
 React / React Native
 NextJS
-AWS DynamoDB
-AWS RDS
-Serverless Infrastructures
-AWS Lambda
+NodeJS
+# Express
+
+REST APIs
 GraphQL
 Django
 Flask
-OpenGL
-Cmake
+MongoDB
+
+AWS Elastic Beanstalk
+AWS EC2
+AWS DynamoDB
+AWS RDS
+AWS Lambda
+# Docker / Kubernetes
+# Apache / Nginx
+
 Pandas
-TensorFlow / PyTorch
-NodeJS
-Maven / Gradle
 Deep Learning
 Artificial Intelligence
+TensorFlow / PyTorch
+# OpenGL
+Cmake
+# Maven / Gradle
+Elasticsearch
+
 Github Workflows
+CI/CD
+
+Git
+Asana
 Team Building
 Product Management
 UI/UX Design`
     .split("\n")
-    .filter((line) => !line.startsWith("#"));
+    .filter((line) => !line.startsWith("#") && !line.match(/^\s*$/));
 
 const SkillsListSection = () => {
     return (

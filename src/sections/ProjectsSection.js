@@ -7,7 +7,7 @@ const ProjectsSection = () => {
     return (
         <Section title="Projects">
             <List>
-                <Project
+                {/* <Project
                     title="Bazar - The Marketplace that Moves With You."
                     dates="11/2020 - Ongoing"
                     summary="Bazar is an all-in-one local-business-centric digital marketplace."
@@ -19,7 +19,7 @@ const ProjectsSection = () => {
                     ]}
                     href="https://bazar.earth/about"
                     linkText="bazar.earth"
-                />
+                /> */}
                 <Project
                     title="The Cuttlefish Programming Language"
                     dates="01/2020 - Ongoing"
@@ -61,19 +61,22 @@ const ProjectsSection = () => {
 const Project = ({ title, dates, summary, achievements, href, linkText }) => {
     return (
         <div>
-            <div style={{ flexDirection: "row", alignItems: "center" }}>
+            <a
+                style={{ flexDirection: "row", alignItems: "center" }}
+                href={href}
+            >
                 <h3>{title}</h3>
                 {href && (
                     <>
                         <span style={{ paddingLeft: 10, paddingRight: 10 }}>
                             -
                         </span>
-                        <a href={href} style={{ color: primaryColor }}>
+                        <span style={{ color: primaryColor }}>
                             {linkText || href}
-                        </a>
+                        </span>
                     </>
                 )}
-            </div>
+            </a>
             <DateLocationInfo dates={dates} />
             <span>{summary}</span>
             <ul>

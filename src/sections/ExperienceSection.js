@@ -10,7 +10,7 @@ const ExperienceSection = () => {
                 <Job
                     title="Scientist II - Software Development"
                     company="Areté"
-                    dates="08/2021 - Present"
+                    dates="08/2021 - Ongoing"
                     location="Northridge, CA"
                     achievements={[
                         "Designed, developed, and helped maintain several customer-facing products (both classified and unclassified)",
@@ -19,7 +19,9 @@ const ExperienceSection = () => {
                         "Received high praise for ability to take charge of a project with little to no supervision and bring it to high quality completion.",
                         // "Took charge of multiple projects and acted as primary integrator and person of contact"
                     ]}
+                    href="https://www.arete.com/"
                 />
+
                 <Job
                     title="Software Engineer - Software Verification"
                     company="Abbott Laboratories"
@@ -29,8 +31,22 @@ const ExperienceSection = () => {
                         "Developed software for improving the efficiency and efficacy of healthcare machinery and patient-facing mobile applications",
                         "Collaborated with developers in extremely large streamlined code repositories and databases",
                     ]}
+                    href="https://www.abbott.com/"
                 />
                 <Job
+                    title="Technical Lead"
+                    company="Bazar"
+                    location="Los Angeles, CA"
+                    dates="11/2020 - Ongoing"
+                    achievements={[
+                        "Co-Engineered a mobile application-based SaaS business with professional-level implementation and integration with large APIs. App available in the App Store and Google Play Stores",
+                        "Designed and implemented a complex E-commerce API with Sorting, Searching, Filtering, Pagination, and Advanced Recommendations across 10s of thousands of products",
+                        "Hired, managed, and trained a small team of engineers across the stack in order to produce a functional and aesthetically pleasing customer-facing product",
+                        "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
+                    ]}
+                    href="https://bazar.earth/about"
+                />
+                {/* <Job
                     title="Software Engineer Intern"
                     company="Automated Living"
                     dates="05/2020 - 08/2020"
@@ -49,7 +65,7 @@ const ExperienceSection = () => {
                         "Provided weekly tutoring for upper and lower-division students enrolled in a variety of different Mathematics & Physics courses",
                         "Improved grades of students as well as deepened their understanding of the topics at hand, with testimonies from professors",
                     ]}
-                />
+                /> */}
                 {/* <Job
                     title="Technical Assistant"
                     company="Pixelgate Networks"
@@ -66,11 +82,20 @@ const ExperienceSection = () => {
     );
 };
 
-export const Job = ({ title, company, dates, location, achievements = [] }) => {
+export const Job = ({
+    title,
+    company,
+    dates,
+    location,
+    achievements = [],
+    href,
+}) => {
     return (
         <div>
-            <h3>{title}</h3>
-            <h4 style={{ color: primaryColor }}>{company}</h4>
+            <a href={href}>
+                <h3>{title}</h3>
+                <h4 style={{ color: primaryColor }}>{company}</h4>
+            </a>
             <DateLocationInfo dates={dates} location={location} />
             <ul>
                 {achievements.map((achievement, i) => (

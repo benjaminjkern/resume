@@ -2,7 +2,7 @@ import { textColor } from "../colors";
 
 const Section = ({ title, children }) => {
     return (
-        <div style={{ margin: 20 }}>
+        <div style={{ margin: 20, marginTop: 5 }}>
             <h1
                 style={{
                     borderBottomStyle: "solid",

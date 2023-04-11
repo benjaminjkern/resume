@@ -10,7 +10,7 @@ body *:not(noscript, li, ul) {
 body {
     font-size: 14px;
     width: 850px;
-    height: 1400px;
+    height: 1100px;
     padding: 40px;
 
     /* outline-style: solid;
@@ -21,8 +21,6 @@ body {
 hr {
     border-style: dashed;
     border-color: lightgray;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
 }
 
 ul {
