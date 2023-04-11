@@ -1,4 +1,4 @@
-import { primaryColor, secondaryColor } from "../colors";
+import { primaryColor } from "../colors";
 import List from "../components/List";
 import Section from "../components/Section";
 
