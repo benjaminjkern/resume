@@ -7,7 +7,7 @@ const ProjectsSection = () => {
     return (
         <Section title="Projects">
             <List>
-                {/* <Project
+                <Project
                     title="Bazar - The Marketplace that Moves With You."
                     dates="11/2020 - Ongoing"
                     summary="Bazar is an all-in-one local-business-centric digital marketplace."
@@ -17,9 +17,9 @@ const ProjectsSection = () => {
                         "Hired, managed, and trained a small team of engineers across the stack in order to produce a functional and aesthetically pleasing customer-facing product",
                         "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
                     ]}
-                    href="https://bazar.earth/about"
+                    href="https://bazar.earth/download"
                     linkText="bazar.earth"
-                /> */}
+                />
                 <Project
                     title="The Cuttlefish Programming Language"
                     dates="01/2020 - Ongoing"
@@ -31,7 +31,7 @@ const ProjectsSection = () => {
                     href="https://benjaminjkern.github.io/cuttlefishlang"
                     linkText="benjaminjkern.github.io/cuttlefishlang"
                 />
-                <Project
+                {/* <Project
                     title="Crowdventure"
                     dates="12/2019 - Ongoing"
                     summary="Crowdventure is a crowd-sourced web application game."
@@ -41,7 +41,7 @@ const ProjectsSection = () => {
                     ]}
                     href="https://crowdventure.me/"
                     linkText="crowdventure.me"
-                />
+                /> */}
                 {/* <Project
                     title="AI and Machine Learning Explorations"
                     dates="04/2016 - Ongoing"

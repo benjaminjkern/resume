@@ -12,7 +12,9 @@ const TopSection = () => {
             }}
         >
             <h1 style={{ fontSize: 45 }}>Benjamin Kern</h1>
-            {/* <h3 style={{ color: primaryColor }}>Software Engineer</h3> */}
+            <h4 style={{ color: primaryColor, marginBottom: 5 }}>
+                Well-Rounded Full Stack Software Engineer
+            </h4>
             <div
                 style={{
                     flexDirection: "row",

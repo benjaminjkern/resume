@@ -8,8 +8,8 @@ const ExperienceSection = () => {
         <Section title="Experience">
             <List>
                 <Job
-                    title="Scientist II - Software Development"
-                    company="Areté"
+                    title="Software Development Engineer II"
+                    company="Areté Associates"
                     dates="08/2021 - Ongoing"
                     location="Northridge, CA"
                     achievements={[
@@ -17,23 +17,23 @@ const ExperienceSection = () => {
                         "Managed and led a team of 4 to fully overhaul an existing product for GPU optimization (Fortran -> C++/Cuda) and brought it to usability by research teams and in classified spaces",
                         "Presented and pitched projects to customers in order to win high-visibility defense contracts",
                         "Received high praise for ability to take charge of a project with little to no supervision and bring it to high quality completion.",
+                        // "Technologies: Python, C/C++, Cuda, Fortran, JavaScript, React, Flask, Apache, FFTW/CuFFT, OpenMPI, PBS, Gitlab"
                         // "Took charge of multiple projects and acted as primary integrator and person of contact"
                     ]}
                     href="https://www.arete.com/"
                 />
-
                 <Job
-                    title="Software Engineer - Software Verification"
+                    title="Software Engineer II - Software Verification"
                     company="Abbott Laboratories"
                     dates="01/2021 - 08/2021"
                     location="Sylmar, CA"
                     achievements={[
                         "Developed software for improving the efficiency and efficacy of healthcare machinery and patient-facing mobile applications",
-                        "Collaborated with developers in extremely large streamlined code repositories and databases",
+                        "Collaborated with a distributed team of developers on extremely large streamlined code repositories and databases",
                     ]}
                     href="https://www.abbott.com/"
                 />
-                <Job
+                {/* <Job
                     title="Technical Lead"
                     company="Bazar"
                     location="Los Angeles, CA"
@@ -45,7 +45,7 @@ const ExperienceSection = () => {
                         "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
                     ]}
                     href="https://bazar.earth/about"
-                />
+                /> */}
                 {/* <Job
                     title="Software Engineer Intern"
                     company="Automated Living"
@@ -55,7 +55,7 @@ const ExperienceSection = () => {
                         "Prototyped IOT products using Raspberry Pi's, utilizing LoRaWAN as well as 4G Modem technologies",
                         "Spearheaded backend and database messaging using MQTT",
                     ]}
-                />
+                /> */}
                 <Job
                     title="Physics & Mathematics Tutor"
                     company="LMU College of Science & Engineering"
@@ -63,9 +63,9 @@ const ExperienceSection = () => {
                     location="Los Angeles, CA"
                     achievements={[
                         "Provided weekly tutoring for upper and lower-division students enrolled in a variety of different Mathematics & Physics courses",
-                        "Improved grades of students as well as deepened their understanding of the topics at hand, with testimonies from professors",
+                        "Improved grades of students as well as deepened their understanding of the topics at hand, with several positive testimonies from professors",
                     ]}
-                /> */}
+                />
                 {/* <Job
                     title="Technical Assistant"
                     company="Pixelgate Networks"
