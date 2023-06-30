@@ -5,43 +5,68 @@ import Section from "../components/Section";
 
 const ProjectsSection = () => {
     return (
-        <Section title="Projects">
+        <Section title="Projects" style={{ marginTop: -20 }}>
             <List>
                 <Project
                     title="Bazar - The Marketplace that Moves With You."
-                    dates="11/2020 - Ongoing"
+                    dates="11/2020 - Present"
                     summary="Bazar is an all-in-one local-business-centric digital marketplace."
-                    achievements={[
-                        "Co-Engineered a mobile application-based SaaS business with professional-level implementation and integration with large APIs. App available in the App Store and Google Play Stores",
-                        "Designed and implemented a complex E-commerce API with Sorting, Searching, Filtering, Pagination, and Advanced Recommendations across 10s of thousands of products",
-                        "Hired, managed, and trained a small team of engineers across the stack in order to produce a functional and aesthetically pleasing customer-facing product",
-                        "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
-                    ]}
                     href="https://bazar.earth/download"
                     linkText="bazar.earth"
-                />
-                <Project
-                    title="The Cuttlefish Programming Language"
+                >
+                    <li>
+                        Co-Engineered a mobile application-based SaaS business
+                        with professional-level implementation and integration
+                        with large APIs. App available in the App Store and
+                        Google Play Stores.
+                    </li>
+                    <li>
+                        Designed and implemented a complex E-commerce API with
+                        Sorting, Searching, Filtering, Pagination, and Advanced
+                        Recommendations across 10s of thousands of products.
+                    </li>
+                    <li>
+                        Hired, managed, and trained a small team of engineers
+                        across the stack in order to produce a functional and
+                        aesthetically pleasing customer-facing product.
+                    </li>
+                    <li>
+                        Programmed frontend using React Native and backend with
+                        Django REST framework on a AWS Elastic Beanstalk
+                        environment talking to a Postgres instance running on
+                        AWS RDS.
+                    </li>
+                </Project>
+                {/* <Project
+                    title="Cuttlefish Programming Language"
                     dates="01/2020 - Ongoing"
                     summary="Cuttlefish is an incredibly versatile & easy-to-learn programming language."
                     achievements={[
                         "Engineered a language, compiler, and interpreter designed to fuse multi-faceted functional programming with object-oriented programming",
                         "Wrote a fully functional novel dynamic parser for the programming language",
                     ]}
-                    href="https://benjaminjkern.github.io/cuttlefishlang"
-                    linkText="benjaminjkern.github.io/cuttlefishlang"
-                />
-                {/* <Project
+                    href="https://github.com/benjaminjkern/cuttlefishlang"
+                    linkText="Check out on Github"
+                /> */}
+                <Project
                     title="Crowdventure"
-                    dates="12/2019 - Ongoing"
+                    dates="12/2019 - Present"
                     summary="Crowdventure is a crowd-sourced web application game."
-                    achievements={[
-                        "Full stack web application game, utilizing ReactJS and Github Pages for frontend deployment",
-                        "Utilized a GraphQL backend deployed to a serverless instance using AWS Lambda for backend and an AWS DynamoDB database",
-                    ]}
                     href="https://crowdventure.me/"
                     linkText="crowdventure.me"
-                /> */}
+                >
+                    <li>
+                        Crowdventure is a crowd-sourced web application game.
+                        Utilized ReactJS and Github Pages for frontend
+                        deployment.
+                    </li>
+                    <li>
+                        Utilized a GraphQL backend deployed to a serverless
+                        instance using AWS Lambda for backend and an AWS
+                        DynamoDB database.
+                    </li>
+                </Project>
+
                 {/* <Project
                     title="AI and Machine Learning Explorations"
                     dates="04/2016 - Ongoing"
@@ -58,32 +83,42 @@ const ProjectsSection = () => {
     );
 };
 
-const Project = ({ title, dates, summary, achievements, href, linkText }) => {
+const Project = ({ title, dates, children, href, linkText }) => {
     return (
         <div>
             <a
-                style={{ flexDirection: "row", alignItems: "center" }}
+                style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                }}
                 href={href}
             >
-                <h3>{title}</h3>
+                <h3 style={{ display: "inline" }}>{title}</h3>
                 {href && (
                     <>
                         <span style={{ paddingLeft: 10, paddingRight: 10 }}>
                             -
                         </span>
-                        <span style={{ color: primaryColor }}>
+                        <h4 style={{ color: primaryColor, display: "inline" }}>
+                            <span
+                                style={{ color: "lightgray", fontWeight: 100 }}
+                            >
+                                https://
+                            </span>
                             {linkText || href}
-                        </span>
+                            <span
+                                style={{ color: "lightgray", fontWeight: 100 }}
+                            >
+                                /
+                            </span>
+                        </h4>
                     </>
                 )}
             </a>
             <DateLocationInfo dates={dates} />
-            <span>{summary}</span>
-            <ul>
-                {achievements.map((achievement, i) => (
-                    <li key={i}>{achievement}</li>
-                ))}
-            </ul>
+
+            <ul>{children}</ul>
         </div>
     );
 };

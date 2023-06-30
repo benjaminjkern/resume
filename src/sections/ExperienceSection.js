@@ -10,42 +10,50 @@ const ExperienceSection = () => {
                 <Job
                     title="Software Development Engineer II"
                     company="Areté Associates"
-                    dates="08/2021 - Ongoing"
+                    dates="08/2021 - Present"
                     location="Northridge, CA"
-                    achievements={[
-                        "Designed, developed, and helped maintain several customer-facing products (both classified and unclassified)",
-                        "Managed and led a team of 4 to fully overhaul an existing product for GPU optimization (Fortran -> C++/Cuda) and brought it to usability by research teams and in classified spaces",
-                        "Presented and pitched projects to customers in order to win high-visibility defense contracts",
-                        "Received high praise for ability to take charge of a project with little to no supervision and bring it to high quality completion.",
-                        // "Technologies: Python, C/C++, Cuda, Fortran, JavaScript, React, Flask, Apache, FFTW/CuFFT, OpenMPI, PBS, Gitlab"
-                        // "Took charge of multiple projects and acted as primary integrator and person of contact"
-                    ]}
                     href="https://www.arete.com/"
-                />
+                >
+                    <li>
+                        Assumed leadership roles on multiple projects, acting as
+                        the primary integrator and the main point of contact,
+                        ensuring seamless coordination and efficient project
+                        execution.
+                    </li>
+                    <li>
+                        Led a team of 4 professionals in a complete overhaul of
+                        an existing product, transitioning from Fortran to
+                        C++/Cuda and optimizing for running on GPUs.
+                    </li>
+                    <li>
+                        Successfully presented and pitched projects to clients,
+                        securing high-visibility defense contracts and
+                        establishing long-term partnerships.
+                    </li>
+                    <li>
+                        Recognized for exceptional initiative and to take charge
+                        of a project, consistently delivering high-quality
+                        outcomes with minimal supervision.
+                    </li>
+                </Job>
                 <Job
                     title="Software Engineer II - Software Verification"
                     company="Abbott Laboratories"
                     dates="01/2021 - 08/2021"
                     location="Sylmar, CA"
-                    achievements={[
-                        "Developed software for improving the efficiency and efficacy of healthcare machinery and patient-facing mobile applications",
-                        "Collaborated with a distributed team of developers on extremely large streamlined code repositories and databases",
-                    ]}
                     href="https://www.abbott.com/"
-                />
-                {/* <Job
-                    title="Technical Lead"
-                    company="Bazar"
-                    location="Los Angeles, CA"
-                    dates="11/2020 - Ongoing"
-                    achievements={[
-                        "Co-Engineered a mobile application-based SaaS business with professional-level implementation and integration with large APIs. App available in the App Store and Google Play Stores",
-                        "Designed and implemented a complex E-commerce API with Sorting, Searching, Filtering, Pagination, and Advanced Recommendations across 10s of thousands of products",
-                        "Hired, managed, and trained a small team of engineers across the stack in order to produce a functional and aesthetically pleasing customer-facing product",
-                        "Programmed frontend using React Native and backend with Django REST framework on a AWS Elastic Beanstalk environment talking to a Postgres instance running on AWS RDS",
-                    ]}
-                    href="https://bazar.earth/about"
-                /> */}
+                >
+                    <li>
+                        Developed software for improving the efficiency and
+                        efficacy of healthcare machinery and patient-facing
+                        mobile applications.
+                    </li>
+                    <li>
+                        Collaborated with a distributed team of developers on
+                        extremely large streamlined code repositories and
+                        databases.
+                    </li>
+                </Job>
                 {/* <Job
                     title="Software Engineer Intern"
                     company="Automated Living"
@@ -61,11 +69,19 @@ const ExperienceSection = () => {
                     company="LMU College of Science & Engineering"
                     dates="08/2017 - 12/2019"
                     location="Los Angeles, CA"
-                    achievements={[
-                        "Provided weekly tutoring for upper and lower-division students enrolled in a variety of different Mathematics & Physics courses",
-                        "Improved grades of students as well as deepened their understanding of the topics at hand, with several positive testimonies from professors",
-                    ]}
-                />
+                    href="https://cse.lmu.edu/"
+                >
+                    <li>
+                        Provided weekly tutoring for upper and lower-division
+                        students enrolled in a variety of different Mathematics
+                        & Physics courses.
+                    </li>
+                    <li>
+                        Improved grades of students as well as deepened their
+                        understanding of the topics at hand, with several
+                        positive testimonies from professors.
+                    </li>
+                </Job>
                 {/* <Job
                     title="Technical Assistant"
                     company="Pixelgate Networks"
@@ -82,14 +98,7 @@ const ExperienceSection = () => {
     );
 };
 
-export const Job = ({
-    title,
-    company,
-    dates,
-    location,
-    achievements = [],
-    href,
-}) => {
+export const Job = ({ title, company, dates, location, href, children }) => {
     return (
         <div>
             <a href={href}>
@@ -97,11 +106,7 @@ export const Job = ({
                 <h4 style={{ color: primaryColor }}>{company}</h4>
             </a>
             <DateLocationInfo dates={dates} location={location} />
-            <ul>
-                {achievements.map((achievement, i) => (
-                    <li key={i}>{achievement}</li>
-                ))}
-            </ul>
+            <ul>{children}</ul>
         </div>
     );
 };

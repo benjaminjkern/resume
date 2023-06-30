@@ -34,9 +34,21 @@ const LinksSection = () => {
 
 const IconLink = ({ href, icon, children }) => {
     return (
-        <a style={{ flexDirection: "row", alignItems: "center" }} href={href}>
+        <a
+            style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+            }}
+            href={href}
+        >
             <span
-                style={{ color: primaryColor, marginRight: 10, fontSize: 20 }}
+                style={{
+                    color: primaryColor,
+                    marginRight: 10,
+                    fontSize: 20,
+                    display: "flex",
+                }}
             >
                 {icon}
             </span>

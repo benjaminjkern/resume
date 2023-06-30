@@ -1,4 +1,4 @@
-import { primaryColor, secondaryColor } from "./colors";
+import { lightColor, primaryColor } from "./colors";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdAlternateEmail } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
@@ -7,14 +7,16 @@ const TopSection = () => {
     return (
         <div
             style={{
-                margin: 20,
-                marginBottom: 10,
+                padding: 40,
+                backgroundColor: primaryColor,
             }}
         >
-            <h1 style={{ fontSize: 45 }}>Benjamin Kern</h1>
-            <h4 style={{ color: primaryColor, marginBottom: 5 }}>
+            <h1 style={{ fontSize: 45, marginBottom: 10, color: "white" }}>
+                Benjamin Kern
+            </h1>
+            {/* <h4 style={{ color: primaryColor, marginBottom: 5 }}>
                 Well-Rounded Full Stack Software Engineer
-            </h4>
+            </h4> */}
             <div
                 style={{
                     flexDirection: "row",
@@ -47,14 +49,24 @@ const InfoSection = ({ icon, children, href }) => {
         <a
             href={href}
             style={{
+                display: "flex",
                 flex: 1,
                 flexDirection: "row",
                 alignItems: "center",
-                color: secondaryColor,
+                color: "lightgray",
                 marginTop: 2,
             }}
         >
-            <span style={{ color: primaryColor, marginRight: 5 }}>{icon}</span>
+            <span
+                style={{
+                    display: "flex",
+                    alignItems: "center",
+                    color: lightColor,
+                    marginRight: 5,
+                }}
+            >
+                {icon}
+            </span>
             <span>{children}</span>
         </a>
     );

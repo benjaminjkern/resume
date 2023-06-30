@@ -1,9 +1,9 @@
 import { textColor } from "../colors";
 
-const Section = ({ title, children }) => {
+const Section = ({ title, children, style }) => {
     return (
-        <div style={{ margin: 20, marginTop: 5 }}>
-            <h1
+        <div style={{ margin: 7, ...style }}>
+            <h2
                 style={{
                     borderBottomStyle: "solid",
                     borderBottomWidth: 3,
@@ -12,7 +12,7 @@ const Section = ({ title, children }) => {
                 }}
             >
                 {title}
-            </h1>
+            </h2>
             {children}
         </div>
     );
