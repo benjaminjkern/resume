@@ -14,13 +14,11 @@ const TopSection = () => {
             <h1 style={{ fontSize: 45, marginBottom: 10, color: "white" }}>
                 Benjamin Kern
             </h1>
-            {/* <h4 style={{ color: primaryColor, marginBottom: 5 }}>
-                Well-Rounded Full Stack Software Engineer
-            </h4> */}
             <div
                 style={{
                     flexDirection: "row",
-                    justifyVontent: "space-between",
+                    justifyContent: "space-between",
+                    // This helps make the links look centered
                     marginBottom: 10,
                 }}
             >
@@ -32,13 +30,13 @@ const TopSection = () => {
                 </InfoSection>
                 <InfoSection
                     icon={<MdAlternateEmail />}
-                    href="mailto:benkern@pixelgate.net?subject=You seem like the perfect fit!"
+                    href="mailto:hi@benjaminjkern.com?subject=You seem like the perfect fit!"
                 >
-                    benkern@pixelgate.net
+                    hi@benjaminjkern.com
                 </InfoSection>
-                <InfoSection icon={<IoLocationSharp />}>
+                {/* <InfoSection icon={<IoLocationSharp />}>
                     Los Angeles, CA
-                </InfoSection>
+                </InfoSection> */}
             </div>
         </div>
     );
@@ -54,7 +52,6 @@ const InfoSection = ({ icon, children, href }) => {
                 flexDirection: "row",
                 alignItems: "center",
                 color: "lightgray",
-                marginTop: 2,
             }}
         >
             <span

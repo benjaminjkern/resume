@@ -25,7 +25,7 @@ const LinksSection = () => {
                     href="https://benjaminjkern.github.io/"
                     icon={<FiLink />}
                 >
-                    benjaminjkern.github.io
+                    benjaminjkern.com
                 </IconLink>
             </List>
         </Section>
@@ -46,6 +46,7 @@ const IconLink = ({ href, icon, children }) => {
                 style={{
                     color: primaryColor,
                     marginRight: 10,
+                    marginLeft: 5,
                     fontSize: 20,
                     display: "flex",
                 }}

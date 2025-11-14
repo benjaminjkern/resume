@@ -5,39 +5,9 @@ import Section from "../components/Section";
 
 const ProjectsSection = () => {
     return (
-        <Section title="Projects" style={{ marginTop: -20 }}>
+        <Section title="Projects">
             <List>
                 <Project
-                    title="Bazar - The Marketplace that Moves With You."
-                    dates="11/2020 - Present"
-                    summary="Bazar is an all-in-one local-business-centric digital marketplace."
-                    href="https://bazar.earth/download"
-                    linkText="bazar.earth"
-                >
-                    <li>
-                        Co-Engineered a mobile application-based SaaS business
-                        with professional-level implementation and integration
-                        with large APIs. App available in the App Store and
-                        Google Play Stores.
-                    </li>
-                    <li>
-                        Designed and implemented a complex E-commerce API with
-                        Sorting, Searching, Filtering, Pagination, and Advanced
-                        Recommendations across 10s of thousands of products.
-                    </li>
-                    <li>
-                        Hired, managed, and trained a small team of engineers
-                        across the stack in order to produce a functional and
-                        aesthetically pleasing customer-facing product.
-                    </li>
-                    <li>
-                        Programmed frontend using React Native and backend with
-                        Django REST framework on a AWS Elastic Beanstalk
-                        environment talking to a Postgres instance running on
-                        AWS RDS.
-                    </li>
-                </Project>
-                {/* <Project
                     title="Cuttlefish Programming Language"
                     dates="01/2020 - Ongoing"
                     summary="Cuttlefish is an incredibly versatile & easy-to-learn programming language."
@@ -47,10 +17,10 @@ const ProjectsSection = () => {
                     ]}
                     href="https://github.com/benjaminjkern/cuttlefishlang"
                     linkText="Check out on Github"
-                /> */}
+                />
                 <Project
                     title="Crowdventure"
-                    dates="12/2019 - Present"
+                    // dates="12/2019 - Present"
                     summary="Crowdventure is a crowd-sourced web application game."
                     href="https://crowdventure.me/"
                     linkText="crowdventure.me"
@@ -66,8 +36,7 @@ const ProjectsSection = () => {
                         DynamoDB database.
                     </li>
                 </Project>
-
-                {/* <Project
+                <Project
                     title="AI and Machine Learning Explorations"
                     dates="04/2016 - Ongoing"
                     summary="Exploring my passion for something I think is very cool, and testing new ideas I come up with relating to the subject."
@@ -77,7 +46,7 @@ const ProjectsSection = () => {
                     ]}
                     href="https://github.com/benjaminjkern/"
                     linkText="On github"
-                /> */}
+                />
             </List>
         </Section>
     );
@@ -116,7 +85,7 @@ const Project = ({ title, dates, children, href, linkText }) => {
                     </>
                 )}
             </a>
-            <DateLocationInfo dates={dates} />
+            {dates ? <DateLocationInfo dates={dates} /> : null}
 
             <ul>{children}</ul>
         </div>
