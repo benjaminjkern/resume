@@ -9,6 +9,7 @@ import SkillsListSection from "./sections/SkillsListSection";
 import ProjectsSection from "./sections/ProjectsSection";
 import SummarySection from "./sections/SummarySection";
 import { SECTION_PADDING } from "./constants";
+import HiddenSection from "./sections/HiddenSection";
 
 const Resume = () => {
     return (
@@ -18,6 +19,7 @@ const Resume = () => {
                 style={{
                     margin: SECTION_PADDING,
                     overflow: "hidden",
+                    gap: SECTION_PADDING,
                     height: 1100 - 172.05 - 2 * SECTION_PADDING, // 172.05 = calculated height of top section
                 }}
             >
@@ -25,7 +27,7 @@ const Resume = () => {
                     <div style={{ flex: 3 }}>
                         <ExperienceSection />
                     </div>
-                    <div style={{ flex: 2, gap: SECTION_PADDING }}>
+                    <div style={{ flex: 2, gap: 10 }}>
                         <SummarySection />
                         <EducationSection />
                         <SkillsListSection />
@@ -39,11 +41,11 @@ const Resume = () => {
                     margin: SECTION_PADDING,
                     overflow: "hidden",
                     height: 1100 - 2 * SECTION_PADDING,
-                    gap: SECTION_PADDING,
                 }}
             >
                 <ExperienceContinuedSection />
-                <ProjectsSection />
+                {/* <ProjectsSection /> */}
+                <HiddenSection />
             </div>
         </>
     );

@@ -32,7 +32,7 @@ span {
 ul {
     margin: 0 !important;
     padding-left: 20px;
-    gap: 3px;
+    gap: 5px;
     display: flex;
     flex-direction: column;
 }

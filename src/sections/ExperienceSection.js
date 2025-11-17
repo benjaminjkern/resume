@@ -21,32 +21,57 @@ const ExperienceSection = () => {
                         pitching, and interview scheduling.
                     </li>
                     <li>
-                        Built a scalable background agent network that
-                        continuously scrapes and analyzes public job and
-                        candidate data to find optimal matches.
+                        Designed a novel and intuitive AI-first job board
+                        interface that empowers candidates and employers to
+                        interact with matches, provide feedback, and refine AI
+                        recommendations over time. Currently reaching 1000s of
+                        weekly active job seekers with several pilot companies
+                        actively using hiring platform.
                     </li>
                     <li>
-                        Designed an intuitive job board interface that empowers
-                        candidates and employers to interact with matches,
-                        provide feedback, and refine AI recommendations over
-                        time.
+                        Hired and managed a team of 4 (3 engineers + web
+                        designer) in product roadmap and prioritization. Ran
+                        daily standup meetings and biweekly check-ins, created
+                        performance reviews and career plans.
                     </li>
                     <li>
-                        Implemented dynamic recommendation systems inspired by
-                        TikTok and Netflix to deliver personalized, adaptive
-                        hiring experiences.
+                        Incorporated direct customer feedback into product
+                        roadmap, with efforts to shorten the feedback loop as
+                        much as possible.
                     </li>
                     <li>
-                        Managed full deployment and ongoing maintenance of the
-                        platform, ensuring reliability and scalability.
+                        Optimized SEO keywords, metadata, sitemaps, and internal
+                        linking across 100,000+ pages so that our jobs would
+                        show up on Google jobs, ranked #1 search result for
+                        several job searches.
                     </li>
                     <li>
-                        Created comprehensive business plan and financial model
-                        to guide growth and fundraising.
+                        Built and scaled background microprocess-agent network
+                        for continuously scraping and analyzing public job and
+                        candidate data to find optimal matches and automatically
+                        perform outreach. Currently processing ~50,000 jobs and
+                        candidates per week and we have amassed a database of
+                        over 5,000,000 high-quality candidates across the globe
+                        fully ingested, indexed, and AI-searchable.
+                    </li>
+                    <li>
+                        Implemented dynamic AI-based recommendation systems
+                        inspired by TikTok and Netflix to deliver personalized,
+                        adaptive hiring experiences.
+                    </li>
+                    <li>
+                        Managed full automated testing, monitoring, and
+                        deployment and ongoing maintenance of the platform,
+                        ensuring reliability and fixes as fast as possible.
+                    </li>
+                    <li>
+                        Drafted and presented comprehensive business plans and
+                        financial models to guide growth, strategy, and
+                        fundraising.
                     </li>
                     <li>
                         Developed investor pitch deck and led fundraising
-                        presentations.{" "}
+                        presentations.
                     </li>
                     <li>
                         Managing go-to-market strategy and customer acquisition,
@@ -56,15 +81,16 @@ const ExperienceSection = () => {
                     </li>
                 </Job>
                 <Job
-                    title="Founding Engineer"
-                    company="Radical"
+                    title="Lead Software Engineer - New Product Initiative"
+                    company="Radical Semiconductor"
                     dates="08/2023 - 01/2024"
                     location="Pasadena, CA"
-                    href="https://www.arete.com/"
+                    href="https://www.linkedin.com/company/radical-semiconductor/"
                 >
                     <li>
-                        Led product engineering with a customer-centric focus,
-                        driving key product development and delivery.
+                        Led product engineering team of 2 with a
+                        customer-centric focus, driving key product development
+                        and delivery.
                     </li>
                     <li>
                         Developed Radical LiteCard, a credit-card hardware
@@ -114,9 +140,13 @@ export const ExperienceContinuedSection = () => {
                         Recommendations across 10s of thousands of products
                     </li>
                     <li>
-                        Hired, trained, and managed a small team of engineers
-                        across the stack in order to produce a functional and
+                        Hired, trained, and managed a team of 5 engineers across
+                        the stack in order to produce a functional and
                         aesthetically pleasing customer-facing product
+                    </li>
+                    <li>
+                        Scaled REST API on AWS Elastic Beanstalk environment to
+                        10,000+ downloads
                     </li>
                     <li>
                         Programmed frontend using React Native and backend with
@@ -138,13 +168,15 @@ export const ExperienceContinuedSection = () => {
                         distributed environments
                     </li>
                     <li>
-                        Took charge of multiple projects and acted as primary
-                        integrator and person of contact
+                        Took charge of multiple projects as the only new hire
+                        who had a background in Physics & Software and acted as
+                        primary integrator and person of contact
                     </li>
                     <li>
-                        Led a small team to fully overhaul an existing product
-                        for GPU optimization (Fortran -&gt; C++/Cuda) and
-                        brought it to usability by research teams
+                        Led a team of 3 engineers through complete product
+                        overhaul (Fortran -&gt; C++/Cuda), managing project
+                        timeline, technical decisions, and stakeholder
+                        communication with research teams
                     </li>
                     <li>
                         Received high praise for ability to take on several
@@ -166,7 +198,8 @@ export const ExperienceContinuedSection = () => {
                     </li>
                     <li>
                         Collaborated with developers in extremely large
-                        streamlined code repositories and databases
+                        streamlined code repositories and databases to ensure
+                        software requirements are achieved
                     </li>
                 </Job>
                 {/* <Job
