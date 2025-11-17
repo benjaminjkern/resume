@@ -8,76 +8,56 @@ const ExperienceSection = () => {
         <Section title="Experience">
             <List>
                 <Job
-                    title="Founder / CEO / CTO"
+                    title="Co-founder / CEO / CTO"
                     company="Savvy"
                     dates="02/2024 - Present"
                     location="Santa Monica, CA"
                     href="https://trysavvy.co/"
                 >
                     <li>
-                        Leading the design and development of an AI-powered,
-                        fully autonomous recruiting platform that automates
-                        end-to-end hiring: sourcing, screening, outreach,
-                        pitching, and interview scheduling.
-                    </li>
-                    <li>
-                        Designed a novel and intuitive AI-first job board
-                        interface that empowers candidates and employers to
-                        interact with matches, provide feedback, and refine AI
-                        recommendations over time. Currently reaching 1000s of
-                        weekly active job seekers with several pilot companies
-                        actively using hiring platform.
+                        Built AI-powered autonomous recruiting platform from
+                        0-1, leading product strategy and engineering execution
+                        to reach 1000s of weekly active users and multiple pilot
+                        companies.
                     </li>
                     <li>
                         Hired and managed a team of 4 (3 engineers + web
                         designer) in product roadmap and prioritization. Ran
-                        daily standup meetings and biweekly check-ins, created
+                        daily standups and biweekly check-ins, created
                         performance reviews and career plans.
                     </li>
                     <li>
-                        Incorporated direct customer feedback into product
-                        roadmap, with efforts to shorten the feedback loop as
-                        much as possible.
+                        Architected and scaled distributed microservice network
+                        processing ~50K jobs/candidates weekly, building
+                        AI-searchable database of 5M+ candidates with automated
+                        matching and outreach.
                     </li>
                     <li>
-                        Optimized SEO keywords, metadata, sitemaps, and internal
-                        linking across 100,000+ pages so that our jobs would
-                        show up on Google jobs, ranked #1 search result for
-                        several job searches.
+                        Implemented dynamic recommendation systems inspired by
+                        TikTok and Netflix, creating personalized, adaptive
+                        experiences based on continuous user feedback.
                     </li>
                     <li>
-                        Built and scaled background microprocess-agent network
-                        for continuously scraping and analyzing public job and
-                        candidate data to find optimal matches and automatically
-                        perform outreach. Currently processing ~50,000 jobs and
-                        candidates per week and we have amassed a database of
-                        over 5,000,000 high-quality candidates across the globe
-                        fully ingested, indexed, and AI-searchable.
-                    </li>
-                    <li>
-                        Implemented dynamic AI-based recommendation systems
-                        inspired by TikTok and Netflix to deliver personalized,
-                        adaptive hiring experiences.
-                    </li>
-                    <li>
-                        Managed full automated testing, monitoring, and
-                        deployment and ongoing maintenance of the platform,
-                        ensuring reliability and fixes as fast as possible.
+                        Established tight customer feedback loops with pilot
+                        companies, directly incorporating product insights into
+                        sprint planning to rapidly iterate on platform
+                        capabilities.
                     </li>
                     <li>
                         Drafted and presented comprehensive business plans and
-                        financial models to guide growth, strategy, and
-                        fundraising.
+                        financial models; led fundraising presentations to align
+                        technical roadmap with growth strategy and market
+                        opportunity.
                     </li>
                     <li>
-                        Developed investor pitch deck and led fundraising
-                        presentations.
+                        Drove go-to-market strategy targeting startups and SMBs,
+                        positioning platform as faster, higher-quality
+                        alternative to traditional recruiting agencies.
                     </li>
                     <li>
-                        Managing go-to-market strategy and customer acquisition,
-                        targeting startups and SMBs to disrupt traditional
-                        recruiting agencies with faster, cheaper, and
-                        higher-quality hiring solutions.
+                        Led technical architecture decisions across full stack
+                        (React + NextJS, PostgreSQL, AWS), balancing rapid
+                        iteration with long-term scalability and reliability.
                     </li>
                 </Job>
                 <Job
@@ -88,28 +68,26 @@ const ExperienceSection = () => {
                     href="https://www.linkedin.com/company/radical-semiconductor/"
                 >
                     <li>
-                        Led product engineering team of 2 with a
-                        customer-centric focus, driving key product development
-                        and delivery.
+                        Brought on to lead struggling product initiative, taking
+                        over team of 2 engineers and rapidly shipping
+                        customer-ready products in 2-week sprint cycles.
                     </li>
                     <li>
-                        Developed Radical LiteCard, a credit-card hardware
-                        wallet leveraging Java Card technology.
+                        Quickly ramped on specialized technology stack ( Java
+                        Card, NFC protocols, OAuth integration, smart contracts)
+                        to establish technical direction for crypto hardware
+                        wallet ecosystem.
                     </li>
                     <li>
-                        Built Radical Wallet, a mobile app built in Expo and
-                        React Native enabling secure NFC interactions and token
-                        trading with the LiteCard.
+                        Delivered 3 interconnected products from concept to
+                        launch: hardware wallet (LiteCard), mobile NFC
+                        application, and web-based card distributor management
+                        platform.
                     </li>
                     <li>
-                        Created LiteCard Manager, a web platform built in NextJS
-                        + TypeScript for distributors and vendors to manage
-                        LiteCard batches and NFT token transactions.
-                    </li>
-                    <li>
-                        Delivered impactful startup experience building funded,
-                        innovative crypto hardware and software products from
-                        concept through launch.
+                        Collaborated directly with founding team on product
+                        strategy and customer-centric design decisions to
+                        balance technical feasibility with market timing.
                     </li>
                 </Job>
             </List>
@@ -129,30 +107,32 @@ export const ExperienceContinuedSection = () => {
                     href="https://bazar.earth/"
                 >
                     <li>
-                        Co-Engineered a mobile application-based SaaS business
-                        with professional-level implementation and integration
-                        with large APIs. App available in the App Store and
-                        Google Play Stores
+                        Co-founded mobile e-commerce SaaS platform, leading
+                        technical strategy and engineering execution from
+                        concept to 10,000+ downloads across iOS and Android.
                     </li>
                     <li>
-                        Designed and implemented a complex E-commerce API with
-                        Sorting, Searching, Filtering, Pagination, and Advanced
-                        Recommendations across 10s of thousands of products
+                        Built and managed engineering team of 5 across full
+                        stack, establishing hiring processes, code review
+                        standards, and sprint workflows that enabled rapid
+                        feature delivery.
                     </li>
                     <li>
-                        Hired, trained, and managed a team of 5 engineers across
-                        the stack in order to produce a functional and
-                        aesthetically pleasing customer-facing product
+                        Architected scalable e-commerce platform with advanced
+                        search, filtering, and ML-powered product
+                        recommendations, making key technical decisions on stack
+                        and infrastructure (React Native, Django, PostgreSQL,
+                        AWS).
                     </li>
                     <li>
-                        Scaled REST API on AWS Elastic Beanstalk environment to
-                        10,000+ downloads
+                        Collaborated closely with co-founder on product
+                        strategy, translating business requirements and customer
+                        feedback into technical roadmaps and sprint priorities.
                     </li>
                     <li>
-                        Programmed frontend using React Native and backend with
-                        Django REST framework on a AWS Elastic Beanstalk
-                        environment talking to a Postgres instance running on
-                        AWS RDS
+                        Led team through multiple product iterations based on
+                        user feedback, establishing customer-centric development
+                        practices and rapid iteration cycles.
                     </li>
                 </Job>
                 <Job
@@ -163,25 +143,34 @@ export const ExperienceContinuedSection = () => {
                     href="https://www.arete.com/"
                 >
                     <li>
-                        Designed, developed, and helped maintain several
-                        customer-facing products for use in far-reaching
-                        distributed environments
+                        Led team of 3 engineers through complete product
+                        overhaul, migrating legacy Fortran codebase to
+                        GPU-optimized C++/CUDA, reducing simulation runtime by
+                        10-20x.
                     </li>
                     <li>
-                        Took charge of multiple projects as the only new hire
-                        who had a background in Physics & Software and acted as
-                        primary integrator and person of contact
+                        Selected as technical lead for simulation products
+                        requiring deep physics domain knowledge and software
+                        engineering expertise, serving as primary liaison
+                        between research and engineering teams.
                     </li>
                     <li>
-                        Led a team of 3 engineers through complete product
-                        overhaul (Fortran -&gt; C++/Cuda), managing project
-                        timeline, technical decisions, and stakeholder
-                        communication with research teams
+                        Identified gaps in team development and created
+                        mentorship program for junior engineers on classified
+                        project, establishing onboarding processes and technical
+                        training that became standard practice.
                     </li>
                     <li>
-                        Received high praise for ability to take on several
-                        projects with little to no supervision and bring them to
-                        high-quality completion
+                        Improved developer experience across engineering and
+                        research teams by building internal tooling (dashboards,
+                        debugging tools) and establishing workflows that
+                        accelerated simulation development cycles.
+                    </li>
+                    <li>
+                        Developed novel simulation capabilities including
+                        generalized arbitrary-order physics solver (previously
+                        limited to order 4), presenting technical approach and
+                        results to DoD stakeholders.
                     </li>
                 </Job>
                 <Job
@@ -192,14 +181,11 @@ export const ExperienceContinuedSection = () => {
                     href="https://www.abbott.com/"
                 >
                     <li>
-                        Developed software for improving the efficiency and
-                        efficacy of healthcare machinery and patient-facing
-                        mobile applications
-                    </li>
-                    <li>
-                        Collaborated with developers in extremely large
-                        streamlined code repositories and databases to ensure
-                        software requirements are achieved
+                        Developed automated testing for FDA-regulated medical
+                        devices; gained experience with enterprise-scale
+                        development processes before transitioning to more
+                        product-focused roles with greater technical ownership
+                        and direct impact.
                     </li>
                 </Job>
                 {/* <Job

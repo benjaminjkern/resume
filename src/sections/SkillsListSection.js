@@ -45,33 +45,34 @@ const SkillsListSection = () => {
             <b style={{ marginBottom: 5 }}>Leadership & Management</b>
             <ul>
                 <li>
-                    Hiring, mentoring, and leading engineering teams in 0-1
-                    environments as well as 1-100 environments
+                    Hiring, mentoring, and leading teams through 0-1 as well as
+                    1-100 environments.
                 </li>
                 <li>
                     Cross-functional collaboration with product, research, and
-                    leadership stakeholders
+                    leadership teams.
                 </li>
                 <li>
-                    Facilitating technical decision-making and building
-                    psychological safety
+                    Facilitating decisions, building psychological safety as
+                    well as team ownership and culture.
+                </li>
+                <li>
+                    Navigating ambiguity and rapidly evolving priorities in
+                    early-stage environments.
                 </li>
             </ul>
             <b style={{ marginBlock: 5 }}>Technical Expertise</b>
             <ul>
                 <li>
-                    Full-stack platforms: <b>React</b>, <b>Next.js</b>,{" "}
-                    <b>React Native</b>, <b>Django</b>, <b>Node.js</b>
+                    Full-stack: React, Next.js, React Native, Django, Node.js,
+                    Express.
                 </li>
+                <li>Distributed systems, microservices, REST APIs, OAuth.</li>
                 <li>
-                    Distributed systems, microservices architecture, background
-                    processing
+                    AWS (EC2, RDS, Lambda, S3, EBS, ECS), PostgreSQL, MySQL,
+                    NoSQL, DynamoDB, Vector DBs.
                 </li>
-                <li>
-                    Cloud infrastructure: AWS (EC2, RDS, Lambda, S3), databases
-                    (PostgreSQL, MySQL, Vector DBs)
-                </li>
-                <li>Languages: TypeScript/JavaScript, Python, C/C++, Java</li>
+                <li>Languages: TypeScript/JavaScript, Python, C/C++, Java.</li>
             </ul>
         </Section>
     );
