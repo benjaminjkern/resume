@@ -5,10 +5,11 @@ const SummarySection = () => {
         <Section title="Summary">
             <span>
                 Engineering leader with 7+ years managing teams and building
-                scalable, user-focused platforms in early-stage environments.
-                Experienced in hiring and mentoring engineers, facilitating
-                technical decision-making, and building shared high-quality
-                infrastructure to enable rapid product iteration.
+                scalable, customer-centric platforms in early-stage
+                environments. Co-founded 2 startups and led engineering at a
+                third. Experienced in hiring and mentoring engineers,
+                facilitating technical decisions, and building shared
+                high-quality infrastructure for rapid development.
             </span>
         </Section>
     );

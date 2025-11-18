@@ -46,33 +46,32 @@ const SkillsListSection = () => {
             <ul>
                 <li>
                     Hiring, mentoring, and leading teams through 0-1 as well as
-                    1-100 environments.
+                    1-100 environments
                 </li>
                 <li>
                     Cross-functional collaboration with product, research, and
-                    leadership teams.
+                    leadership
                 </li>
                 <li>
-                    Facilitating decisions, building psychological safety as
-                    well as team ownership and culture.
+                    Building team psychological safety, ownership and culture
                 </li>
                 <li>
-                    Navigating ambiguity and rapidly evolving priorities in
-                    early-stage environments.
+                    Navigating ambiguity in rapidly evolving early-stage
+                    environments
                 </li>
             </ul>
             <b style={{ marginBlock: 5 }}>Technical Expertise</b>
             <ul>
                 <li>
                     Full-stack: React, Next.js, React Native, Django, Node.js,
-                    Express.
+                    Express
                 </li>
-                <li>Distributed systems, microservices, REST APIs, OAuth.</li>
+                <li>Distributed systems, microservices, REST APIs, OAuth</li>
                 <li>
-                    AWS (EC2, RDS, Lambda, S3, EBS, ECS), PostgreSQL, MySQL,
-                    NoSQL, DynamoDB, Vector DBs.
+                    Cloud & Data: AWS (EC2, RDS, Lambda, S3, EBS, ECS),
+                    PostgreSQL, MySQL, NoSQL, DynamoDB, Vector DBs
                 </li>
-                <li>Languages: TypeScript/JavaScript, Python, C/C++, Java.</li>
+                <li>Languages: TypeScript/JavaScript, Python, C/C++, Java</li>
             </ul>
         </Section>
     );

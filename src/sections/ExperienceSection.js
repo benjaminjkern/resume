@@ -15,22 +15,22 @@ const ExperienceSection = () => {
                     href="https://trysavvy.co/"
                 >
                     <li>
-                        Built AI-powered autonomous recruiting platform from
-                        0-1, leading product strategy and engineering execution
-                        to reach 1000s of weekly active users and multiple pilot
-                        companies.
+                        Founded and built AI-powered recruiting platform from
+                        scratch, leading all aspects of product strategy,
+                        engineering execution, and team building to reach 1000+
+                        weekly active users and multiple pilot companies.
                     </li>
                     <li>
-                        Hired and managed a team of 4 (3 engineers + web
-                        designer) in product roadmap and prioritization. Ran
-                        daily standups and biweekly check-ins, created
-                        performance reviews and career plans.
+                        Hired and managed team of 4 (3 engineers, web designer),
+                        establishing engineering practices (daily standups,
+                        biweekly 1:1s, performance reviews) that enabled team to
+                        ship features weekly while maintaining code quality.
                     </li>
                     <li>
-                        Architected and scaled distributed microservice network
-                        processing ~50K jobs/candidates weekly, building
-                        AI-searchable database of 5M+ candidates with automated
-                        matching and outreach.
+                        Architected and scaled microservice network processing
+                        ~50K jobs/candidates weekly, building AI-searchable
+                        database of 5M+ candidates with automated matching and
+                        outreach.
                     </li>
                     <li>
                         Implemented dynamic recommendation systems inspired by
@@ -39,25 +39,21 @@ const ExperienceSection = () => {
                     </li>
                     <li>
                         Established tight customer feedback loops with pilot
-                        companies, directly incorporating product insights into
-                        sprint planning to rapidly iterate on platform
-                        capabilities.
+                        companies, incorporating insights into sprint planning
+                        to rapidly ship requested features and improvements.
                     </li>
                     <li>
-                        Drafted and presented comprehensive business plans and
-                        financial models; led fundraising presentations to align
-                        technical roadmap with growth strategy and market
-                        opportunity.
-                    </li>
-                    <li>
-                        Drove go-to-market strategy targeting startups and SMBs,
-                        positioning platform as faster, higher-quality
-                        alternative to traditional recruiting agencies.
+                        Developed comprehensive business strategy including
+                        financial models, pitch deck, and business plans;
+                        executed go-to-market approach targeting startups/SMBs,
+                        translating technical architecture into market
+                        positioning.
                     </li>
                     <li>
                         Led technical architecture decisions across full stack
-                        (React + NextJS, PostgreSQL, AWS), balancing rapid
-                        iteration with long-term scalability and reliability.
+                        (React, NextJS, PostgreSQL, AWS), establishing reusable
+                        platform components that accelerated feature development
+                        while maintaining 99.9% uptime.
                     </li>
                 </Job>
                 <Job
@@ -68,26 +64,28 @@ const ExperienceSection = () => {
                     href="https://www.linkedin.com/company/radical-semiconductor/"
                 >
                     <li>
-                        Brought on to lead struggling product initiative, taking
-                        over team of 2 engineers and rapidly shipping
-                        customer-ready products in 2-week sprint cycles.
+                        Brought on as technical lead for new product initiative,
+                        driving direction for team of 2 engineers and rapidly
+                        shipping customer-ready products in 2-week sprint
+                        cycles.
                     </li>
                     <li>
-                        Quickly ramped on specialized technology stack ( Java
+                        Quickly ramped on specialized technology stack (Java
                         Card, NFC protocols, OAuth integration, smart contracts)
                         to establish technical direction for crypto hardware
                         wallet ecosystem.
                     </li>
                     <li>
                         Delivered 3 interconnected products from concept to
-                        launch: hardware wallet (LiteCard), mobile NFC
-                        application, and web-based card distributor management
-                        platform.
+                        customer deployment in under 6 months: hardware wallet
+                        (LiteCard), mobile NFC application, and web-based
+                        distributor management platform.
                     </li>
                     <li>
-                        Collaborated directly with founding team on product
-                        strategy and customer-centric design decisions to
-                        balance technical feasibility with market timing.
+                        Collaborated with founding team on product strategy and
+                        technical priorities, balancing aggressive timelines
+                        with hardware constraints and user experience
+                        requirements.
                     </li>
                 </Job>
             </List>
@@ -112,27 +110,36 @@ export const ExperienceContinuedSection = () => {
                         concept to 10,000+ downloads across iOS and Android.
                     </li>
                     <li>
-                        Built and managed engineering team of 5 across full
-                        stack, establishing hiring processes, code review
-                        standards, and sprint workflows that enabled rapid
-                        feature delivery.
+                        Built and managed engineering team of 5, establishing
+                        development processes that enabled rapid feature
+                        delivery, including shipping complex features like
+                        in-app chat and bargaining system in under one month
+                        from start to deployment.
                     </li>
                     <li>
-                        Architected scalable e-commerce platform with advanced
-                        search, filtering, and ML-powered product
-                        recommendations, making key technical decisions on stack
-                        and infrastructure (React Native, Django, PostgreSQL,
-                        AWS).
+                        Architected scalable e-commerce platform with ML-powered
+                        recommendations and advanced search/filtering across
+                        tens of thousands of products, making key technical
+                        decisions on stack and infrastructure (React Native,
+                        Django, PostgreSQL, AWS).
                     </li>
                     <li>
-                        Collaborated closely with co-founder on product
-                        strategy, translating business requirements and customer
-                        feedback into technical roadmaps and sprint priorities.
+                        Designed novel seed-random home page pagination system
+                        that balanced recency, relevance, and popularity for
+                        infinite-scroll discovery, driving user engagement
+                        across product catalog.
                     </li>
                     <li>
-                        Led team through multiple product iterations based on
-                        user feedback, establishing customer-centric development
-                        practices and rapid iteration cycles.
+                        Implemented comprehensive caching strategy (local +
+                        backend) that transformed app performance from sluggish
+                        to lightning-fast response times, significantly
+                        improving user experience.
+                    </li>
+                    <li>
+                        Owned all technical decision-making as CTO, partnering
+                        with co-founder on product strategy through multiple
+                        pivots while translating customer needs into engineering
+                        priorities.
                     </li>
                 </Job>
                 <Job

@@ -45,7 +45,7 @@ const Resume = () => {
             >
                 <ExperienceContinuedSection />
                 {/* <ProjectsSection /> */}
-                <HiddenSection />
+                {/* <HiddenSection /> */}
             </div>
         </>
     );
