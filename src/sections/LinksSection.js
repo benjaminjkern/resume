@@ -21,10 +21,7 @@ const LinksSection = () => {
                 >
                     /benjaminjkern
                 </IconLink>
-                <IconLink
-                    href="https://benjaminjkern.github.io/"
-                    icon={<FiLink />}
-                >
+                <IconLink href="https://benjaminjkern.com/" icon={<FiLink />}>
                     benjaminjkern.com
                 </IconLink>
             </List>
