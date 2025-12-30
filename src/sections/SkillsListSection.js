@@ -45,28 +45,28 @@ const SkillsListSection = () => {
             <b style={{ marginBottom: 5 }}>Leadership & Management</b>
             <ul>
                 <li>
-                    Hiring, mentoring, and leading teams through 0-1 as well as
-                    1-100 environments
-                </li>
-                <li>
-                    Cross-functional collaboration with product, research, and
-                    leadership
-                </li>
-                <li>
-                    Building team psychological safety, ownership and culture
+                    Team building (0-1 and scale), cross-functional
+                    collaboration, psychological safety
                 </li>
                 <li>
                     Navigating ambiguity in rapidly evolving early-stage
                     environments
                 </li>
             </ul>
+            <b style={{ marginBlock: 5 }}>Platform & Enterprise Systems</b>
+            <ul>
+                <li>
+                    Billing systems, OAuth/SSO/RBAC, distributed systems,
+                    microservices, REST APIs
+                </li>
+                <li>Developer tooling and internal platforms</li>
+            </ul>
             <b style={{ marginBlock: 5 }}>Technical Expertise</b>
             <ul>
                 <li>
-                    Full-stack: React, Next.js, React Native, Django, Node.js,
-                    Express
+                    Frontend & Backend: React, Next.js, React Native, Django,
+                    Node.js, Express
                 </li>
-                <li>Distributed systems, microservices, REST APIs, OAuth</li>
                 <li>
                     Cloud & Data: AWS (EC2, RDS, Lambda, S3, EBS, ECS),
                     PostgreSQL, MySQL, NoSQL, DynamoDB, Vector DBs

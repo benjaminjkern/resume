@@ -64,7 +64,7 @@ const ExperienceSection = () => {
                     href="https://www.linkedin.com/company/radical-semiconductor/"
                 >
                     <li>
-                        Brought on as technical lead for new product initiative,
+                        Hired as technical lead for new product initiative,
                         driving direction for team of 2 engineers and rapidly
                         shipping customer-ready products in 2-week sprint
                         cycles.
@@ -110,11 +110,13 @@ export const ExperienceContinuedSection = () => {
                         concept to 10,000+ downloads across iOS and Android.
                     </li>
                     <li>
-                        Built and managed engineering team of 5, establishing
-                        development processes that enabled rapid feature
-                        delivery, including shipping complex features like
-                        in-app chat and bargaining system in under one month
-                        from start to deployment.
+                        Hired, managed, and mentored engineering team of 5,
+                        establishing development processes (standups, 1:1s, code
+                        reviews) that enabled rapid feature delivery while
+                        maintaining team culture and code quality, including
+                        shipping complex features like in-app chat and
+                        bargaining system in under one month from start to
+                        deployment.
                     </li>
                     <li>
                         Architected scalable e-commerce platform with ML-powered
@@ -168,10 +170,11 @@ export const ExperienceContinuedSection = () => {
                         training that became standard practice.
                     </li>
                     <li>
-                        Improved developer experience across engineering and
-                        research teams by building internal tooling (dashboards,
-                        debugging tools) and establishing workflows that
-                        accelerated simulation development cycles.
+                        Built internal developer tools (dashboards, debugging
+                        interfaces) that improved productivity for both
+                        engineering and research teams, reducing development
+                        cycle times and establishing workflows that became
+                        standard practice.
                     </li>
                     <li>
                         Developed novel simulation capabilities including
