@@ -12,16 +12,18 @@ const DateLocationInfo = ({ dates, location }) => {
                 marginBottom: 2,
             }}
         >
-            <span
-                style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    marginRight: 15,
-                }}
-            >
-                <BsFillCalendarWeekFill style={{ marginRight: 5 }} />
-                {dates}
-            </span>
+            {dates && (
+                <span
+                    style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        marginRight: 15,
+                    }}
+                >
+                    <BsFillCalendarWeekFill style={{ marginRight: 5 }} />
+                    {dates}
+                </span>
+            )}
             {location && (
                 <span style={{ display: "flex", flexDirection: "row" }}>
                     <IoLocationSharp style={{ marginRight: 3 }} />

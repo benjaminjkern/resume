@@ -1,1 +1,1 @@
-export const SECTION_PADDING = 20;
+export const SECTION_PADDING = 16;

@@ -8,7 +8,6 @@ const EducationSection = () => {
             <Education
                 school="Loyola Marymount University"
                 degrees={["B.S. Computer Science", "B.S. Physics"]}
-                dates="2016 - 2020"
                 location="Los Angeles, CA"
             />
         </Section>

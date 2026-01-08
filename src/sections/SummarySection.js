@@ -4,11 +4,10 @@ const SummarySection = () => {
     return (
         <Section title="Summary">
             <span>
-                Engineering leader with 7 years building platforms and 5+ years
-                managing teams in fast-paced, early-stage environments.
-                Co-founded 2 startups as CTO and led engineering at a third.
-                Passionate about platform engineering, developer experience, and
-                building shared infrastructure that enables rapid development.
+                Engineering leader with 8 years building platforms and 5+ years
+                managing teams, including building search and ranking systems
+                from scratch. Co-founded 2 startups as CTO and led engineering
+                at a third.
             </span>
         </Section>
     );

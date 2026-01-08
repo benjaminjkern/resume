@@ -53,25 +53,32 @@ const SkillsListSection = () => {
                     environments
                 </li>
             </ul>
-            <b style={{ marginBlock: 5 }}>Platform & Enterprise Systems</b>
+            <b style={{ marginBlock: 5 }}>Search & Ranking Systems</b>
             <ul>
                 <li>
-                    Billing systems, OAuth/SSO/RBAC, distributed systems,
-                    microservices, REST APIs
+                    Search algorithms, relevance scoring, query understanding,
+                    personalized ranking
                 </li>
-                <li>Developer tooling and internal platforms</li>
+                <li>
+                    Semantic search with LLMs, recommendation systems, A/B
+                    testing
+                </li>
             </ul>
-            <b style={{ marginBlock: 5 }}>Technical Expertise</b>
+            <b style={{ marginBlock: 5 }}>Platform & Infrastructure</b>
             <ul>
                 <li>
-                    Frontend & Backend: React, Next.js, React Native, Django,
-                    Node.js, Express
+                    Distributed systems, microservices, REST APIs, Billing
+                    services (Stripe + Plaid), developer tooling
                 </li>
+            </ul>
+            <b style={{ marginBlock: 5 }}>Technical Stack</b>
+            <ul>
+                <li>React, Next.js, React Native, Django, Node.js, Express</li>
                 <li>
-                    Cloud & Data: AWS (EC2, RDS, Lambda, S3, EBS, ECS),
-                    PostgreSQL, MySQL, NoSQL, DynamoDB, Vector DBs
+                    AWS (EC2, RDS, Lambda, S3, EBS, ECS), PostgreSQL, MySQL,
+                    NoSQL, DynamoDB, Vector DBs
                 </li>
-                <li>Languages: TypeScript/JavaScript, Python, C/C++, Java</li>
+                <li>TypeScript/JavaScript, Python, C/C++, Java</li>
             </ul>
         </Section>
     );

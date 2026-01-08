@@ -33,9 +33,15 @@ const ExperienceSection = () => {
                         outreach.
                     </li>
                     <li>
-                        Implemented dynamic recommendation systems inspired by
-                        TikTok and Netflix, creating personalized, adaptive
-                        experiences based on continuous user feedback.
+                        Built search and ranking algorithms from scratch,
+                        implementing relevance scoring, query understanding, and
+                        semantic matching using LLMs to optimize candidate
+                        discovery.
+                    </li>
+                    <li>
+                        Designed dynamic ranking systems inspired by TikTok and
+                        Netflix, creating personalized, adaptive experiences
+                        that continuously improved through user feedback loops.
                     </li>
                     <li>
                         Established tight customer feedback loops with pilot
@@ -43,17 +49,14 @@ const ExperienceSection = () => {
                         to rapidly ship requested features and improvements.
                     </li>
                     <li>
-                        Developed comprehensive business strategy including
-                        financial models, pitch deck, and business plans;
-                        executed go-to-market approach targeting startups/SMBs,
-                        translating technical architecture into market
-                        positioning.
+                        Developed business strategy and executed go-to-market
+                        approach, translating technical architecture into market
+                        positioning for startups/SMBs.
                     </li>
                     <li>
-                        Led technical architecture decisions across full stack
-                        (React, NextJS, PostgreSQL, AWS), establishing reusable
-                        platform components that accelerated feature development
-                        while maintaining 99.9% uptime.
+                        Led technical architecture decisions (React, NextJS,
+                        PostgreSQL, AWS), establishing reusable components that
+                        accelerated development while maintaining 99.9% uptime.
                     </li>
                 </Job>
                 <Job
@@ -119,11 +122,16 @@ export const ExperienceContinuedSection = () => {
                         deployment.
                     </li>
                     <li>
+                        Built search and filtering system across tens of
+                        thousands of products, implementing ranking algorithms
+                        that balanced recency, relevance, and popularity for
+                        product discovery.
+                    </li>
+                    <li>
                         Architected scalable e-commerce platform with ML-powered
-                        recommendations and advanced search/filtering across
-                        tens of thousands of products, making key technical
-                        decisions on stack and infrastructure (React Native,
-                        Django, PostgreSQL, AWS).
+                        recommendations, making key technical decisions on stack
+                        and infrastructure (React Native, Django, PostgreSQL,
+                        AWS).
                     </li>
                     <li>
                         Designed novel seed-random home page pagination system
