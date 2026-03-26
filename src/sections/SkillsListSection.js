@@ -42,43 +42,33 @@ UI/UX Design`;
 const SkillsListSection = () => {
     return (
         <Section title="Skills & Technologies">
+            <b style={{ marginBlock: 5 }}>Languages & Frameworks</b>
+            <ul>
+                <li>C/C++, CUDA, Python, SQL, TensorFlow</li>
+                <li>TypeScript/JavaScript, Java</li>
+                <li>React, Next.js, React Native, Django, Node.js</li>
+            </ul>
+            <b style={{ marginBlock: 5 }}>Platform & Infrastructure</b>
+            <ul>
+                <li>
+                    Simulation infrastructure, data processing pipelines,
+                    distributed systems, microservices
+                </li>
+                <li>
+                    AWS (EC2, RDS, Lambda, S3, EBS, ECS), PostgreSQL, DynamoDB,
+                    Vector DBs
+                </li>
+            </ul>
             <b style={{ marginBottom: 5 }}>Leadership & Management</b>
             <ul>
                 <li>
                     Team building (0-1 and scale), cross-functional
-                    collaboration, psychological safety
+                    collaboration
                 </li>
                 <li>
                     Navigating ambiguity in rapidly evolving early-stage
                     environments
                 </li>
-            </ul>
-            <b style={{ marginBlock: 5 }}>Search & Ranking Systems</b>
-            <ul>
-                <li>
-                    Search algorithms, relevance scoring, query understanding,
-                    personalized ranking
-                </li>
-                <li>
-                    Semantic search with LLMs, recommendation systems, A/B
-                    testing
-                </li>
-            </ul>
-            <b style={{ marginBlock: 5 }}>Platform & Infrastructure</b>
-            <ul>
-                <li>
-                    Distributed systems, microservices, REST APIs, Billing
-                    services (Stripe + Plaid), developer tooling
-                </li>
-            </ul>
-            <b style={{ marginBlock: 5 }}>Technical Stack</b>
-            <ul>
-                <li>React, Next.js, React Native, Django, Node.js, Express</li>
-                <li>
-                    AWS (EC2, RDS, Lambda, S3, EBS, ECS), PostgreSQL, MySQL,
-                    NoSQL, DynamoDB, Vector DBs
-                </li>
-                <li>TypeScript/JavaScript, Python, C/C++, Java</li>
             </ul>
         </Section>
     );

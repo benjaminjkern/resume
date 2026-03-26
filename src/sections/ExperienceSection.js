@@ -39,11 +39,11 @@ const ExperienceSection = () => {
                         discovery.
                     </li>
                     <li>
-                        Designed dynamic ranking systems inspired by TikTok and
-                        Netflix, creating personalized, adaptive experiences
-                        that continuously improved through user feedback loops.
+                        Designed and built ML-based recommendation system for
+                        job-candidate matching, with continuous feedback loops
+                        to improve ranking quality.
                     </li>
-                    <li>
+                    {/* <li>
                         Established tight customer feedback loops with pilot
                         companies, incorporating insights into sprint planning
                         to rapidly ship requested features and improvements.
@@ -52,13 +52,73 @@ const ExperienceSection = () => {
                         Developed business strategy and executed go-to-market
                         approach, translating technical architecture into market
                         positioning for startups/SMBs.
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                         Led technical architecture decisions (React, NextJS,
                         PostgreSQL, AWS), establishing reusable components that
                         accelerated development while maintaining 99.9% uptime.
+                    </li> */}
+                </Job>
+                <Job
+                    title="Software Engineer - Simulations & Optimization"
+                    company="Areté"
+                    dates="08/2021 - 08/2023"
+                    location="Los Angeles, CA"
+                    href="https://www.arete.com/"
+                >
+                    <li>
+                        Led team of 3 engineers through complete product
+                        overhaul, migrating legacy Fortran codebase to
+                        GPU-optimized C++/CUDA, reducing simulation runtime by
+                        10-20x and integrating the results into the production
+                        system.
+                    </li>
+                    <li>
+                        Integrated offline neural network models into the live
+                        C++ system using TensorFlow's C API and built the
+                        validation infrastructure to ensure models ran correctly
+                        and at speed in production.
+                    </li>
+                    {/* <li>
+                        Identified gaps in team development and created
+                        mentorship program for junior engineers on classified
+                        project, establishing onboarding processes and technical
+                        training that became standard practice.
+                    </li> */}
+                    <li>
+                        Optimized simulation algorithms by reducing space
+                        complexity from quadratic to linear and building a
+                        dynamic programming approach that generalized the
+                        expansion order beyond its previous hardcoded limit
+                        (previously limited to order 4), enabling arbitrarily
+                        precise simulations without exploding in time or space.
+                    </li>
+                    <li>
+                        Selected as technical lead for simulation products
+                        requiring deep physics domain knowledge, serving as
+                        primary liaison between research and engineering teams
+                        and presenting technical approach and results to DoD
+                        stakeholders.
+                    </li>
+                    <li>
+                        Built internal developer tools and contributed to the
+                        customer-facing frontend for accessing and configuring
+                        data collection runs.
+                    </li>
+                    <li>
+                        Systems operated on distributed job queues processing
+                        radar and satellite imagery data at petabyte scale.
                     </li>
                 </Job>
+            </List>
+        </Section>
+    );
+};
+
+export const ExperienceContinuedSection = () => {
+    return (
+        <Section title="Experience (continued)">
+            <List>
                 <Job
                     title="Lead Software Engineer - New Product Initiative"
                     company="Radical Semiconductor"
@@ -91,15 +151,6 @@ const ExperienceSection = () => {
                         requirements.
                     </li>
                 </Job>
-            </List>
-        </Section>
-    );
-};
-
-export const ExperienceContinuedSection = () => {
-    return (
-        <Section title="Experience (continued)">
-            <List>
                 <Job
                     title="Co-founder / CTO"
                     company="Bazar"
@@ -150,45 +201,6 @@ export const ExperienceContinuedSection = () => {
                         with co-founder on product strategy through multiple
                         pivots while translating customer needs into engineering
                         priorities.
-                    </li>
-                </Job>
-                <Job
-                    title="Software Engineer - Simulations & Optimization"
-                    company="Areté"
-                    dates="08/2021 - 08/2023"
-                    location="Los Angeles, CA"
-                    href="https://www.arete.com/"
-                >
-                    <li>
-                        Led team of 3 engineers through complete product
-                        overhaul, migrating legacy Fortran codebase to
-                        GPU-optimized C++/CUDA, reducing simulation runtime by
-                        10-20x.
-                    </li>
-                    <li>
-                        Selected as technical lead for simulation products
-                        requiring deep physics domain knowledge and software
-                        engineering expertise, serving as primary liaison
-                        between research and engineering teams.
-                    </li>
-                    <li>
-                        Identified gaps in team development and created
-                        mentorship program for junior engineers on classified
-                        project, establishing onboarding processes and technical
-                        training that became standard practice.
-                    </li>
-                    <li>
-                        Built internal developer tools (dashboards, debugging
-                        interfaces) that improved productivity for both
-                        engineering and research teams, reducing development
-                        cycle times and establishing workflows that became
-                        standard practice.
-                    </li>
-                    <li>
-                        Developed novel simulation capabilities including
-                        generalized arbitrary-order physics solver (previously
-                        limited to order 4), presenting technical approach and
-                        results to DoD stakeholders.
                     </li>
                 </Job>
                 <Job
